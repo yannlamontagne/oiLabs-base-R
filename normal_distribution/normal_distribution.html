@@ -157,7 +157,7 @@ $(document).ready(function () {
 <span class="kw">load</span>(<span class="st">&quot;bdims.RData&quot;</span>)</code></pre></div>
 <p>Let’s take a quick peek at the first few rows of the data.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(bdims)</code></pre></div>
-<p>You’ll see that for every observation we have 25 measurements, many of which are either diameters or girths. A key to the variable names can be found at <a href="http://www.openintro.org/stat/data/bdims.php" class="uri">http://www.openintro.org/stat/data/bdims.php</a>, but we’ll be focusing on just three columns to get started: weight in kg (<code>wgt</code>), height in cm (<code>hgt</code>), bicep girth in centimeters, measured when flexed as the average of right and left girths (‘bic.gi’), and <code>sex</code> (<code>1</code> indicates male, <code>0</code> indicates female).</p>
+<p>You’ll see that for every observation we have 25 measurements, many of which are either diameters or girths. A key to the variable names can be found at <a href="http://www.openintro.org/stat/data/bdims.php" class="uri">http://www.openintro.org/stat/data/bdims.php</a>, but we’ll be focusing on just three columns to get started: weight in kg (<code>wgt</code>), height in cm (<code>hgt</code>), bicep girth in centimeters, measured when flexed as the average of right and left girths (<code>bic.gi</code>), and <code>sex</code> (<code>1</code> indicates male, <code>0</code> indicates female).</p>
 <p>Since males and females tend to have different body dimensions, it will be useful to create two additional data sets: one with only men and another with only women.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">mdims &lt;-<span class="st"> </span><span class="kw">subset</span>(bdims, sex ==<span class="st"> </span><span class="dv">1</span>)
 fdims &lt;-<span class="st"> </span><span class="kw">subset</span>(bdims, sex ==<span class="st"> </span><span class="dv">0</span>)</code></pre></div>
@@ -198,7 +198,7 @@ y &lt;-<span class="st"> </span><span class="kw">dnorm</span>(<span class="dt">x
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qqnormsim</span>(fdims$hgt)</code></pre></div>
 <ol start="4" style="list-style-type: decimal">
 <li><p>Does the normal probability plot for <code>fdims$hgt</code> look similar to the plots created for the simulated data? That is, do plots provide evidence that the female heights are nearly normal?</p></li>
-<li><p>Using the same technique, determine whether or not female weights appear to come from a normal distribution.</p></li>
+<li><p>Using the same technique, determine whether or not male bicep girths appear to come from a normal distribution.</p></li>
 </ol>
 </div>
 <div id="normal-probabilities" class="section level2">

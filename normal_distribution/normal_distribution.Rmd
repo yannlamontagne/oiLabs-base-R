@@ -34,7 +34,7 @@ You'll see that for every observation we have 25 measurements, many of which are
 either diameters or girths.  A key to the variable names can be found at 
 [http://www.openintro.org/stat/data/bdims.php](http://www.openintro.org/stat/data/bdims.php),
 but we'll be focusing on just three columns to get started: weight in kg (`wgt`), 
-height in cm (`hgt`), bicep girth in centimeters, measured when flexed as the average of right and left girths ('bic.gi'), and `sex` (`1` indicates male, `0` indicates female).
+height in cm (`hgt`), bicep girth in centimeters, measured when flexed as the average of right and left girths (`bic.gi`), and `sex` (`1` indicates male, `0` indicates female).
 
 Since males and females tend to have different body dimensions, it will be 
 useful to create two additional data sets: one with only men and another with 
@@ -152,7 +152,7 @@ qqnormsim(fdims$hgt)
     created for the simulated data?  That is, do plots provide evidence that the
     female heights are nearly normal?
 
-5.  Using the same technique, determine whether or not female weights appear to 
+5.  Using the same technique, determine whether or not male bicep girths appear to 
     come from a normal distribution.
 
 ## Normal probabilities
