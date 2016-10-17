@@ -20,7 +20,7 @@ contains measurements from 247 men and 260 women, most of whom were considered
 healthy young adults.
 
 ```{r load-data, eval=FALSE}
-download.file("http://www.openintro.org/stat/data/bdims.RData", destfile = "bdims.RData")
+download.file("http://www.openintro.net/stat/data/bdims.RData", destfile = "bdims.RData")
 load("bdims.RData")
 ```
 
