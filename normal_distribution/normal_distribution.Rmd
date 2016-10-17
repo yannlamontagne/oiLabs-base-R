@@ -32,7 +32,7 @@ head(bdims)
 
 You'll see that for every observation we have 25 measurements, many of which are
 either diameters or girths.  A key to the variable names can be found at 
-[http://www.openintro.org/stat/data/bdims.php](http://www.openintro.org/stat/data/bdims.php),
+[http://www.openintro.net/stat/data/bdims.php](http://www.openintro.net/stat/data/bdims.php),
 but we'll be focusing on just three columns to get started: weight in kg (`wgt`), 
 height in cm (`hgt`), and `sex` (`1` indicates male, `0` indicates female).
 
