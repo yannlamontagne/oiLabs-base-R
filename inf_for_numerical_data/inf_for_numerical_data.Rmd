@@ -122,34 +122,13 @@ inference(y = nc$weight, x = nc$habit, est = "mean", type = "ci", null = 0,
           order = c("smoker","nonsmoker"))
 ```
 
-* * *
+6. For the above hypothesis test and confidence interval, does the inference function use a t-distribution or standard normal distribution? Justify.
 
-## On your own
+7. Manually repeat the hypothesis test and confidence interval by using the t-distribution and use the Welch–Satterthwaite equation to determine the degree of freedom. Show your work!  How does it change the results of the hypothesis test and confidence interval obtained using the inference function? Justify.
 
--   Calculate a 95% confidence interval for the average length of pregnancies 
-(`weeks`) and interpret it in context. Note that since you're doing inference 
-on a single population parameter, there is no explanatory variable, so you can 
-omit the `x` variable from the function.
-
--   Calculate a new confidence interval for the same parameter at the 90% 
-confidence level. You can change the confidence level by adding a new argument 
-to the function: `conflevel = 0.90`.
-
--   Conduct a hypothesis test evaluating whether the average weight gained by 
-younger mothers is different than the average weight gained by mature mothers.
-
--   Now, a non-inference task: Determine the age cutoff for younger and mature 
-mothers. Use a method of your choice, and explain how your method works.
-
--   Pick a pair of numerical and categorical variables and come up with a 
-research question evaluating the relationship between these variables. 
-Formulate the question in a way that it can be answered using a hypothesis test
-and/or a confidence interval. Answer your question using the `inference` 
-function, report the statistical results, and also provide an explanation in 
-plain language.
 
 <div id="license">
-This is a product of OpenIntro that is released under a [Creative Commons 
+Modified by Yann Lamontagne from a product of OpenIntro that is released under a [Creative Commons 
 Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0).
 This lab was adapted for OpenIntro by Mine &Ccedil;etinkaya-Rundel from a lab 
 written by the faculty and TAs of UCLA Statistics.
