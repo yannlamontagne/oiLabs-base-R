@@ -124,7 +124,7 @@ inference(y = nc$weight, x = nc$habit, est = "mean", type = "ci", null = 0,
 
 6. For the above hypothesis test and confidence interval, does the inference function use a t-distribution or standard normal distribution? Justify.
 
-7. Manually repeat the hypothesis test and confidence interval by using the t-distribution and use the Welch–Satterthwaite equation to determine the degree of freedom. Show your work!  How does it change the results of the hypothesis test and confidence interval obtained using the inference function? Justify.
+7. Manually repeat the hypothesis test with 5% significance and 95% confidence interval by using the t-distribution and use the Welch–Satterthwaite equation to determine the degree of freedom. Show your work!  How does it change the results of the hypothesis test (with 5% significance) and confidence interval obtained using the inference function? Justify.
 
 
 <div id="license">
